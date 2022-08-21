@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    font-family: 'Cursed Timer ULiL';
+    background-color: #1B244A;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.rectangle {
+    background-color: #080001;
+    width: 155px;
+    height: 120px;
+    line-height: 130px;
+    border-radius: 5px;
+}
+
+.buttons {
+    margin-top: 26px;
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    width: 45px;
+    height: 45px;
+    color: #9AABD8;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    font-family: 'Cursed Timer ULiL';
+    font-size: 18px;
+    background-color: rgba(28,28,28,0);
+}
+
+button:hover {
+    background-color: #9AABD8;
+    color: #1B244A;
+}
+
+p {
+    font-size: 90px;
+    color: #F94F6D;
+    margin: 0;
+}
+
+h3 {
+    font-family: 'Verdana';
+    font-size: 40px;
+    color: #EEEEEE;
+}
+
+.game {
+    display: block;
+    font-family: 'Verdana';
+    font-size: 20px;
+    color: #EEEEEE;
+    width: 140px;
+    margin: 20px auto;
+}
